@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(53, 45, 45);
+}
+header {
+    background-color: rgb(128, 36, 36);
+    color: white;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+.score-bord {
+    color: black;
+    border: 5px solid black;
+    background-color: beige;
+    margin: 20px auto;
+    padding: 15px;
+    width: 250px;
+    font-size: 26px;
+    text-align: center;
+}
+.score {
+    display: inline;
+}
+#user-lable {
+    font-size: 20px;
+    position: relative;
+    right: 69px;
+    border: 2px solid rgb(228, 114, 114);
+    background-color: black;
+    color: white;
+}
+#comp-lable {
+    font-size: 20px;
+    position: relative;
+    left: 72px;
+    border: 2px solid rgb(228, 114, 114);
+    background-color: black;
+    color: white;
+}
+#user-score {
+    font-size: 30px;
+}
+#comp-score {
+    font-size: 30px;
+}
+.result {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.result > p {
+    font-weight: bold;
+    margin: 20px auto;
+}
+.signs {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.sign {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid black;
+    transition: all 500ms;
+    
+}
+.sign:hover {
+    cursor: pointer;
+    background-color: red;
+    border-color: white;
+}
+.action-center {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
